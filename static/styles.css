@@ -1,0 +1,36 @@
+/* Estilos CSS para el encabezado */
+.header {
+  /*background-image: url('/img/Background1.jpg'); /* URL de la imagen de fondo */
+  position: relative;
+  /*background-size: cover;  Ajustar la imagen de fondo al tamaño del encabezado */
+  height: 100vh; /* Establecer la altura del encabezado al 100% de la altura de la ventana */
+}
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+  z-index: -1; /* Coloca la imagen detrás del contenido del encabezado */
+  opacity: 80%;
+}
+
+/* Estilos CSS para la sección "Acerca de Nosotros" */
+.about-section {
+  height: 100vh; /* Establecer la altura al 100% de la altura de la ventana */
+}
+
+/* Estilos CSS para la imagen */
+.about-section img {
+  width: 500px; /* Establecer el ancho de la imagen a 500px */
+  height: 500px; /* Establecer la altura de la imagen a 500px */
+}
+
+/* Estilos CSS para la sección "Acerca de Nosotros" */
+.about-section .text-block {
+  margin-left: 4rem; /* Ajustar el margen izquierdo del texto */
+}
+
+
+
